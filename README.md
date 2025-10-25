@@ -1,0 +1,2 @@
+# static-web
+pagina estatica
