@@ -1,0 +1,40 @@
+body{
+
+    background-image: url(https://media.istockphoto.com/id/1459373176/es/vector/fondo-abstracto-desenfocado-primavera-verano-mar.jpg?s=612x612&w=0&k=20&c=3TfmQIt0uGI0br0VwykBoOzJ1-IAUuGztrzkd3KbaUQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div{
+    text-align: center;
+}
+
+h1, h2{
+    color: rgb(88, 48, 182);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombre{
+    font-size: 50px;
+    background-color: black;
+}
+
+.nombre:hover{
+    color: red;
+}
+
+#mensaje{
+    font-size: 100px;
+}
+
+.imagen_principal{
+    border-radius: 5%;
+    box-shadow: 1em;
+}
+
+.imagen_principal:hover{
+    border-style: solid;
+    border-color: red;
+
+}
