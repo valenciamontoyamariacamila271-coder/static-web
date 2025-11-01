@@ -1,40 +1,42 @@
-body{
-
-    background-image: url(https://media.istockphoto.com/id/1459373176/es/vector/fondo-abstracto-desenfocado-primavera-verano-mar.jpg?s=612x612&w=0&k=20&c=3TfmQIt0uGI0br0VwykBoOzJ1-IAUuGztrzkd3KbaUQ=);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-div{
-    text-align: center;
-}
-
-h1, h2{
-    color: rgb(88, 48, 182);
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .nombre{
+    color: rgb(11, 72, 206);
+    text-align: center;
     font-size: 50px;
-    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: ridge;
 }
 
 .nombre:hover{
-    color: red;
+    color: rgb(236, 221, 9);
 }
 
-#mensaje{
-    font-size: 100px;
+.yo{
+    text-align: center;
 }
 
-.imagen_principal{
-    border-radius: 5%;
-    box-shadow: 1em;
+.presentacion{
+    text-align: left;
+    
 }
 
-.imagen_principal:hover{
-    border-style: solid;
-    border-color: red;
-
+.row{
+    background-color: transparent;
 }
+
+
+.boton{
+    text-align: right;
+}
+
+.col{
+    border-style: ridge;
+    border-color: black;
+    
+}
+
+
+.redes{
+    text-align: right;
+}
+
