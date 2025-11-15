@@ -2,28 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=h, initial-scale=1.0">
-    <title>PRIMERA CLASE</title>
-    
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calculadora.css">
 </head>
 <body>
-    <h1 style="color: rgb(41, 114, 114);">Esto es un titulo</h1>
-    <h2 style="font-family: fantasy;">Esto es un subtitulo</h2>
-    <h3 style="font-family: 'Lucida Sans'; color: blue;"> Esto esta en h3</h3>
-    <h4 style="font-size: 100px;">Esto esta en h4</h4>
-    <h5 style="background-color: cadetblue;">Esto esta en h5</h5>
-    <h6>Esto esta en h6</h6>
-    <p style="border-style: dotted;">Esto es un texto grande que <b>deberia</b> poder utilizar sin problemas</p>
-<img src="./img/perro.jpg">
-<img style="border-radius: 50%; width: 200px; height: 200px;" src="./img/perro.jpg">
 
-<button type="button"> 
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1&pp=ygUIcmlja3JvbGygBwE%3D">
-        pulsa me
-    </a>
-</button>
+    <h1 class="Titulo">Mi primera calculadora</h1>
+    
+    <div class="calculadora">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VHAK-gU9gi0?si=dB8djgesSRuLbtZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="pantalla">0</div>
 
+
+         <button class="numero" id="c">C</button>
+
+        <button class="numero" id="borrar">←</button>
+        <button class="numero">1</button>
+        <button class="numero">2</button>
+        <button class="numero">3</button>
+        <button class="numero">4</button>
+        <button class="numero">5</button>
+        <button class="numero">6</button>
+        <button class="numero">4</button>
+        <button class="numero">7</button>
+        <button class="numero">8</button>
+        <button class="numero">9</button>
+        <button class="numero">-</button>
+        <button class="numero">+</button>
+        <button class="numero">*</button>
+        <button class="numero">/</button>
+        <button class="numero" id="igual">=</button>
+        <button class="numero" id="cero">0</button>
+        
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/calculadora.js"></script>
 </body>
 </html>
